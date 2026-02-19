@@ -13,7 +13,11 @@
     },
     {
         "action": "wait",
-        "value": 4000
+        "value": 6000
+    },
+    {
+        "action": "scrollToText",
+        "value": "1"
     },
     {
         "action": "clickFirst",
@@ -32,6 +36,14 @@
         "value": 4000
     },
     {
+        "action": "scrollToSelector",
+        "selector": ".products"
+    },
+    {
+        "action": "wait",
+        "value": 4000
+    },
+    {
         "action": "clickProductByPriceRange",
         "min": 145,
         "max": 265
@@ -39,6 +51,10 @@
     {
         "action": "wait",
         "value": 4000
+    },
+    {
+        "action": "waitForSelector",
+        "selector": "button:has-text('Continue')"
     },
     {
         "action": "click",
@@ -61,6 +77,14 @@
         "selector": "text=Proceed to checkout"
     },
     {
+        "action": "wait",
+        "value": 4000
+    },
+    {
+        "action": "waitForSelector",
+        "selector": "form"
+    },
+    {
         "action": "fill",
         "selector": "#email",
         "value": "sales@sphereplugins.com"
@@ -68,32 +92,40 @@
     {
         "action": "fill",
         "selector": "#billing-first_name",
-        "value": "Portable"
+        "value": "hi000"
     },
     {
         "action": "fill",
         "selector": "#billing-last_name",
-        "value": "User"
+        "value": "last"
     },
     {
         "action": "fill",
         "selector": "#billing-address_1",
-        "value": "123 Portable Ave"
+        "value": "410 Angel Square Uttran"
     },
     {
         "action": "fill",
         "selector": "#billing-city",
-        "value": "TechCity"
+        "value": "Surat"
     },
     {
         "action": "fill",
         "selector": "#billing-postcode",
-        "value": "123456"
+        "value": "394105"
     },
     {
         "action": "fill",
         "selector": "#billing-phone",
-        "value": "9999999999"
+        "value": "8347408752"
+    },
+    {
+        "action": "click",
+        "selector": "button:has-text('Place Order')"
+    },
+    {
+        "action": "wait",
+        "value": 8000
     },
     {
         "action": "verifyText",
