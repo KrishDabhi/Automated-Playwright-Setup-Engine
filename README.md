@@ -57,6 +57,6 @@ To change what the automation does, simply edit the **`task.json`** file in the 
 
 To completely remove the suite from your system:
 1.  Close any running automation windows.
-2.  **Delete the entire project folder.**
+2.  **Delete only internal named folder.**
 
 Since the engine uses session-based redirection, **nothing** ever left the folder. Your computer remains as clean as it was before you started.
