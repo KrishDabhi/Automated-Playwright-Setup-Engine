@@ -1,0 +1,18 @@
+{
+    "name": "playwright-portable",
+    "version": "1.0.0",
+    "description": "Portable Playwright automation engine with zero system footprint.",
+    "main": "runner.js",
+    "scripts": {
+        "test": "playwright test",
+        "setup:win": "powershell -ExecutionPolicy Bypass -File ./setup.ps1",
+        "setup:unix": "bash ./setup.sh",
+        "start": "node runner.js"
+    },
+    "dependencies": {
+        "playwright": "^1.41.0"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.41.0"
+    }
+}

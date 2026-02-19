@@ -1,0 +1,102 @@
+[
+    {
+        "action": "goto",
+        "value": "https://spdev.emptyops.com/temp_for_wbc_final_test_12/design-your-own-ring/"
+    },
+    {
+        "action": "wait",
+        "value": 5000
+    },
+    {
+        "action": "click",
+        "selector": "text=Start with Diamond"
+    },
+    {
+        "action": "wait",
+        "value": 4000
+    },
+    {
+        "action": "clickFirst",
+        "selector": ".products .product img"
+    },
+    {
+        "action": "wait",
+        "value": 4000
+    },
+    {
+        "action": "click",
+        "selector": "text=Continue"
+    },
+    {
+        "action": "wait",
+        "value": 4000
+    },
+    {
+        "action": "clickProductByPriceRange",
+        "min": 145,
+        "max": 265
+    },
+    {
+        "action": "wait",
+        "value": 4000
+    },
+    {
+        "action": "click",
+        "selector": "button:has-text('Continue')"
+    },
+    {
+        "action": "wait",
+        "value": 4000
+    },
+    {
+        "action": "click",
+        "selector": "text=Add to cart"
+    },
+    {
+        "action": "wait",
+        "value": 6000
+    },
+    {
+        "action": "click",
+        "selector": "text=Proceed to checkout"
+    },
+    {
+        "action": "fill",
+        "selector": "#email",
+        "value": "sales@sphereplugins.com"
+    },
+    {
+        "action": "fill",
+        "selector": "#billing-first_name",
+        "value": "Portable"
+    },
+    {
+        "action": "fill",
+        "selector": "#billing-last_name",
+        "value": "User"
+    },
+    {
+        "action": "fill",
+        "selector": "#billing-address_1",
+        "value": "123 Portable Ave"
+    },
+    {
+        "action": "fill",
+        "selector": "#billing-city",
+        "value": "TechCity"
+    },
+    {
+        "action": "fill",
+        "selector": "#billing-postcode",
+        "value": "123456"
+    },
+    {
+        "action": "fill",
+        "selector": "#billing-phone",
+        "value": "9999999999"
+    },
+    {
+        "action": "verifyText",
+        "value": "Order"
+    }
+]
