@@ -56,9 +56,17 @@ else
                 NODE_TAR="node-$NODE_VER-darwin-x64.tar.gz"
             fi
         elif [ "$OS_TYPE" == "Linux" ]; then
-            NODE_TAR="node-$NODE_VER-linux-x64.tar.xz"
+            if [ "$ARCH" == "x86_64" ]; then
+                NODE_TAR="node-$NODE_VER-linux-x64.tar.xz"
+            elif [ "$ARCH" == "aarch64" ]; then
+                NODE_TAR="node-$NODE_VER-linux-arm64.tar.xz"
+            else
+                echo "CRITICAL ERROR: Unsupported Linux architecture: $ARCH"
+                exit 1
+            fi
         else
-            echo "ERROR: Unsupported OS: $OS_TYPE"
+            echo "CRITICAL ERROR: This engine does not support $OS_TYPE."
+            echo "Supported: Windows (64/32/ARM), macOS (Intel/M-Series), and Linux (x64/ARM64)."
             exit 1
         fi
         
