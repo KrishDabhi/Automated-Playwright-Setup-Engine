@@ -13,6 +13,17 @@ This is a 100% portable, self-bootstrapping automation suite for Playwright desi
 
 ---
 
+## 📥 How to Get Started
+
+To use this engine, you first need to download the project files:
+
+1.  **Click the green "<> Code" button** at the top right of the GitHub page.
+2.  Select **"Download ZIP"** from the dropdown menu.
+3.  **Extract the ZIP file** to a folder on your computer (e.g., your Desktop).
+4.  Open the newly extracted folder and follow the "Quick Start" steps below.
+
+---
+
 ## ⚡ Quick Start (Single Command)
 
 | OS | Action | Simple Command |
