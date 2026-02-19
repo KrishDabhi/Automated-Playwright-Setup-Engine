@@ -19,7 +19,7 @@ To use this engine, you first need to download the project files:
 
 1.  **Click the green "<> Code" button** at the top right of the GitHub page.
 2.  Select **"Download ZIP"** from the dropdown menu.
-3.  **Extract the ZIP file** to a folder on your computer (e.g., your Desktop).
+3.  **Extract the ZIP file** to a folder on your system where to run it.(e.g., your project folder).
 4.  Open the newly extracted folder and follow the "Quick Start" steps below.
 
 ---
